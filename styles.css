@@ -1,0 +1,109 @@
+body {
+    background: #0f172a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: #020617;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #22c55e !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.card {
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    transition: 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.3);
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.price {
+    color: #22c55e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-buy,
+.btn-home {
+    background: #22c55e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-buy {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-home {
+    margin-top: 30px;
+}
+
+.btn-buy:hover,
+.btn-home:hover {
+    background: #16a34a;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-home:visited {
+    color: #fff;
+}
+
+.success-container,
+.cancel-container {
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.success-container h1 {
+    color: #22c55e;
+}
+
+.cancel-container h1 {
+    color: #ef4444;
+}
+
+.success-container p,
+.cancel-container p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.page-centered {
+    padding: 50px;
+    text-align: center;
+}
